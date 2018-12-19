@@ -1,0 +1,1 @@
+!function(e){e(document).on("click",".ba_map_notice .notice-dismiss, .ba_map_notice .dismiss-nag",function(i){i.preventDefault(),function(e,i,n){var t=new Date;t.setTime(t.getTime()+24*n*60*60*1e3);var o="expires="+t.toUTCString();document.cookie=e+"="+i+";"+o+";path=/"}("osmapper_review_nag","hide",21),e(".ba_map_notice").remove()})}(jQuery);

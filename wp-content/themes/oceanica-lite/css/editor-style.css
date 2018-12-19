@@ -1,0 +1,585 @@
+/*!
+Theme Name: Oceanica Lite
+Description: Used to style the TinyMCE editor.
+*/
+/**
+ * Table of Contents:
+ *
+ * 1.0 - Typography
+ * 2.0 - Elements
+ * 3.0 - Alignment
+ * 4.0 - Media Elements
+ * 5.0 - RTL
+ */
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+body {
+  color: #484848;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1.85714;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  clear: both;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  font-family: "Playfair Display", serif;
+}
+
+h1, h2, h3, h4, h6 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 28px;
+  font-size: 1.75rem;
+  line-height: 1.21429;
+}
+
+.entry-child-pages-list .entry-title,
+h2 {
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 1.25;
+}
+
+h3 {
+  font-size: 22px;
+  font-size: 1.375rem;
+  line-height: 1.75;
+}
+
+h4 {
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 1.25;
+}
+
+h5 {
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 1.33333;
+  font-weight: 400;
+}
+
+h6 {
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1.71429;
+}
+
+p {
+  margin: 0 0 1.5em;
+}
+@media screen and (min-width: 48em) {
+  p {
+    margin: 0 0 1.75em;
+  }
+}
+
+dfn, cite, em, i {
+  font-style: italic;
+}
+
+blockquote {
+  border: 4px solid #f5f3f1;
+  margin: 0 0 0;
+}
+
+address {
+  margin: 0 0 1.5em;
+}
+
+pre {
+  background: #f5f3f1;
+  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 2;
+  margin: 0 0 1.5em;
+  padding: 1.95em 1.45em;
+  max-width: 100%;
+  overflow: auto;
+  font-weight: 300;
+}
+
+code, kbd, tt, var {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  font-size: 1rem;
+  background: #f5f3f1;
+  padding: 0.063em 0.250em;
+}
+
+abbr, acronym {
+  text-decoration: underline dotted;
+  cursor: help;
+}
+
+mark, ins {
+  background: #0489ef;
+  text-decoration: none;
+  color: #fff;
+  padding: 0 0.250em;
+}
+
+big {
+  font-size: 125%;
+}
+
+h1 {
+  margin-top: 1.85em;
+  margin-bottom: 1.02em;
+}
+
+h2 {
+  margin-top: 2.25em;
+  margin-bottom: 1.2em;
+}
+
+h3 {
+  margin-top: 2.14em;
+  margin-bottom: 1.1em;
+}
+
+h4 {
+  margin-top: 2.65em;
+  margin-bottom: 1.45em;
+}
+
+h5 {
+  margin-top: 3em;
+  margin-bottom: 1.6em;
+}
+
+h6 {
+  margin-top: 3.7em;
+  margin-bottom: 2.1em;
+}
+
+a {
+  color: #0489ef;
+  text-decoration: none;
+  -moz-transition: border-color 0.15s ease-in-out, color 0.15s ease-in-out, background 0.15s ease-in-out;
+  -o-transition: border-color 0.15s ease-in-out, color 0.15s ease-in-out, background 0.15s ease-in-out;
+  -webkit-transition: border-color 0.15s ease-in-out, color 0.15s ease-in-out, background 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, color 0.15s ease-in-out, background 0.15s ease-in-out;
+}
+a:hover, a:active {
+  outline: 0;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:focus {
+  outline: thin dotted;
+  outline-color: #484848;
+}
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+  box-sizing: inherit;
+}
+
+body {
+  background: #fff;
+  /* Fallback for when there is no custom background color defined. */
+}
+
+blockquote {
+  quotes: "" "";
+}
+
+blockquote {
+  quotes: "" "";
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  font-size: 1.375rem;
+  line-height: 1.54545;
+  padding: 1.25em 0.7em;
+  margin: 1.7em 0 1em;
+}
+@media screen and (min-width: 48em) {
+  blockquote {
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding: 1.1em 1.5em;
+    margin: 0 0 1.167em;
+  }
+}
+blockquote:before, blockquote:after {
+  content: "";
+}
+blockquote cite,
+blockquote small {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1.85714;
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 1.5em;
+}
+@media screen and (min-width: 48em) {
+  blockquote cite,
+  blockquote small {
+    margin-top: 1.75em;
+  }
+}
+p + blockquote cite, p +
+blockquote small {
+  margin-top: 0;
+}
+blockquote p {
+  margin: 0 0 0.95em;
+}
+blockquote em,
+blockquote i,
+blockquote cite {
+  font-style: normal;
+}
+blockquote strong,
+blockquote b {
+  font-weight: 400;
+}
+blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+hr {
+  background-color: #e0e0e0;
+  border: 0;
+  height: 1px;
+  margin: 4.15em 0 4.65em;
+}
+
+ul, ol {
+  margin: 0 0 1.5em 1.25em;
+  padding: 0;
+}
+ul li + li, ol li + li {
+  margin-top: 0.8em;
+}
+
+ul {
+  list-style: square;
+}
+
+ol {
+  list-style: decimal;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.8em;
+  margin-left: 1em;
+  margin-bottom: 0;
+}
+
+dt {
+  font-weight: 600;
+}
+
+dd {
+  margin: 0 1.25em 1.75em;
+}
+
+img {
+  height: auto;
+  /* Make sure images are scaled correctly. */
+  max-width: 100%;
+  /* Adhere to container width. */
+}
+
+figure {
+  margin: 0 0 1.5em;
+}
+@media screen and (min-width: 48em) {
+  figure {
+    margin: 0 0 1.75em;
+  }
+}
+
+th,
+td {
+  border: 1px solid #e0e0e0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0 0 1.5em;
+  table-layout: fixed;
+  /* Prevents HTML tables from becoming too wide */
+  width: 100%;
+}
+
+caption,
+th,
+td {
+  font-weight: normal;
+  text-align: left;
+}
+
+th {
+  font-weight: 600;
+}
+
+th,
+td {
+  padding: 0.8em;
+}
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+.alignleft {
+  display: inline;
+  float: left;
+  margin: 0 2.4em 1.5em 0;
+}
+
+.alignright {
+  display: inline;
+  float: right;
+  margin: 0 0 1.5em 2.4em;
+}
+
+.aligncenter {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto 1.5em;
+}
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+.site .avatar {
+  border-radius: 50%;
+}
+
+.entry-content .wp-smiley,
+.entry-summary .wp-smiley,
+.comment-content .wp-smiley,
+.textwidget .wp-smiley {
+  border: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.entry-content a img,
+.entry-summary a img,
+.comment-content a img,
+.textwidget a img {
+  display: block;
+}
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object,
+video {
+  margin: 0 0 1.5em;
+  max-width: 100%;
+  vertical-align: middle;
+}
+@media screen and (min-width: 48em) {
+  embed,
+  iframe,
+  object,
+  video {
+    margin: 0 0 1.75em;
+  }
+}
+
+p > embed,
+p > iframe,
+p > object,
+p > video {
+  margin-bottom: 0;
+}
+
+.entry-content .wp-audio-shortcode a,
+.entry-content .wp-playlist a {
+  box-shadow: none;
+}
+
+.wp-audio-shortcode,
+.wp-video,
+.wp-playlist.wp-audio-playlist {
+  margin: 0 0 1.5em;
+}
+@media screen and (min-width: 48em) {
+  .wp-audio-shortcode,
+  .wp-video,
+  .wp-playlist.wp-audio-playlist {
+    margin: 0 0 1.75em;
+  }
+}
+
+.wp-playlist.wp-audio-playlist {
+  padding-bottom: 0;
+}
+
+.wp-playlist .wp-playlist-tracks {
+  margin-top: 0;
+}
+
+.wp-playlist-item .wp-playlist-caption {
+  border-bottom: 0;
+  padding: 0.7142857143em 0;
+}
+
+.wp-playlist-item .wp-playlist-item-length {
+  top: 0.7142857143em;
+}
+
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+.wp-caption, .gallery-caption {
+  margin-top: 0.45em;
+  margin-bottom: 1.5em;
+  max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wp-caption-text {
+  font-size: 12px;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  margin: 1.4em 0 0;
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+.gallery {
+  margin-bottom: 1em;
+  margin-left: -1em;
+}
+.gallery img {
+  display: block;
+  margin: 0 auto;
+}
+
+.gallery-item {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  width: 100%;
+  padding-left: 1em;
+  margin: 0 0 1em;
+}
+.gallery-columns-2 .gallery-item {
+  max-width: 50%;
+}
+.gallery-columns-3 .gallery-item {
+  max-width: 33.33%;
+}
+.gallery-columns-4 .gallery-item {
+  max-width: 25%;
+}
+.gallery-columns-5 .gallery-item {
+  max-width: 20%;
+}
+.gallery-columns-6 .gallery-item {
+  max-width: 16.66%;
+}
+.gallery-columns-7 .gallery-item {
+  max-width: 14.28%;
+}
+.gallery-columns-8 .gallery-item {
+  max-width: 12.5%;
+}
+.gallery-columns-9 .gallery-item {
+  max-width: 11.11%;
+}
+
+.gallery-caption {
+  display: block;
+}
+
+/*--------------------------------------------------------------
+## Print
+--------------------------------------------------------------*/
+@media print {
+  /* Hide elements */
+  form,
+  button,
+  input,
+  select,
+  textarea,
+  .site-header-menu,
+  .page-links,
+  .edit-link,
+  .post-navigation,
+  .pagination.navigation,
+  .comments-pagination,
+  .comment-respond,
+  .comment-edit-link,
+  .comment-reply-link,
+  .comment-metadata .edit-link,
+  .pingback .edit-link,
+  .content-bottom-widgets,
+  .post-thumbnail,
+  .site-info {
+    display: none !important;
+  }
+
+  .post-thumbnail + .main-wrapper {
+    margin-top: 0em;
+  }
+}
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+.rtl th {
+  text-align: right;
+}
+
+.rtl ol {
+  counter-reset: item;
+}
+
+.rtl ol li:before {
+  left: auto;
+  right: -1.5em;
+}
+
+.rtl li > ul,
+.rtl li > ol {
+  margin-left: 0;
+  margin-right: 1.5em;
+}
+
+.rtl .mejs-offscreen {
+  right: -10000px;
+}

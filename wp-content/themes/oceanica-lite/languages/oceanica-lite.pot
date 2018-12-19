@@ -1,0 +1,360 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Oceanica\n"
+"POT-Creation-Date: 2018-03-07 18:48+0200\n"
+"PO-Revision-Date: 2017-05-25 15:36+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "One thought to &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:36
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Thought to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Thoughts to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:50 comments.php:70
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:53 comments.php:73
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:55 comments.php:75
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:83
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:18
+msgid "Footer Links Menu"
+msgstr ""
+
+#: footer.php:31
+#, php-format
+msgid "&copy; %1$s All Rights Reserved"
+msgstr ""
+
+#: functions.php:48
+msgid "Primary"
+msgstr ""
+
+#: functions.php:49
+msgid "Header Left"
+msgstr ""
+
+#: functions.php:50
+msgid "Header Right"
+msgstr ""
+
+#: functions.php:51
+msgid "Footer"
+msgstr ""
+
+#: functions.php:113
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:115 functions.php:169
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:122
+msgid "Footer Left"
+msgstr ""
+
+#: functions.php:124 functions.php:133 functions.php:142
+msgid "Appears in the footer section of the site."
+msgstr ""
+
+#: functions.php:131
+msgid "Footer Center"
+msgstr ""
+
+#: functions.php:140
+msgid "Footer Right"
+msgstr ""
+
+#: functions.php:149
+msgid "Front Page Top"
+msgstr ""
+
+#: functions.php:151
+msgid "Appears on the Front Page."
+msgstr ""
+
+#: functions.php:158
+msgid "Front Page Bottom"
+msgstr ""
+
+#: functions.php:160
+msgid "Appears in the Home page."
+msgstr ""
+
+#: functions.php:167
+msgid "Shop"
+msgstr ""
+
+#: functions.php:195
+msgid "expand child menu"
+msgstr ""
+
+#: functions.php:196
+msgid "collapse child menu"
+msgstr ""
+
+#: functions.php:266
+msgctxt "Playfair Display font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:275
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:314
+msgid "Page with sidebar"
+msgstr ""
+
+#: header.php:23
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:29 header.php:42
+msgid "Top Links Menu"
+msgstr ""
+
+#: header.php:82
+msgid "Menu"
+msgstr ""
+
+#: inc/customizer.php:146
+msgid "Main Text Color"
+msgstr ""
+
+#: inc/customizer.php:158
+msgid "Link Color"
+msgstr ""
+
+#: inc/customizer.php:170
+msgid "Button Hover Color"
+msgstr ""
+
+#: inc/customizer.php:244
+msgid "Default"
+msgstr ""
+
+#: inc/template-tags.php:33
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:53
+msgid "Featured"
+msgstr ""
+
+#: inc/template-tags.php:64
+#, php-format
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:70
+msgid " in "
+msgstr ""
+
+#: inc/template-tags.php:86
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:93 template-parts/content-home.php:27
+#: template-parts/content-page-full-width.php:26
+#: template-parts/content-page.php:27 template-parts/content-single.php:42
+#: template-parts/content.php:31
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: inc/template-tags.php:180
+msgid "next"
+msgstr ""
+
+#: inc/template-tags.php:181
+msgid "Next post:"
+msgstr ""
+
+#: inc/template-tags.php:183
+msgid "previous"
+msgstr ""
+
+#: inc/template-tags.php:184
+msgid "Previous post:"
+msgstr ""
+
+#: inc/template-tags.php:198
+msgid "Page"
+msgstr ""
+
+#: inc/template-tags.php:234
+msgctxt "Used between list items, there is a space."
+msgid " "
+msgstr ""
+
+#: inc/template-tags.php:237
+msgid "Tagged: "
+msgstr ""
+
+#: inc/template-tags.php:238
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr ""
+
+#: inc/template-tags.php:261
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: inc/template-tags.php:352
+msgid "Read More"
+msgstr ""
+
+#: inc/template-tags.php:435
+msgid "Related Posts"
+msgstr ""
+
+#: inc/woocommerce.php:311
+msgid "View your shopping cart"
+msgstr ""
+
+#: inc/woocommerce.php:313
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: search.php:15
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:11
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:13
+msgctxt "placeholder"
+msgid "Keywords"
+msgstr ""
+
+#: searchform.php:17
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: template-parts/biography.php:14
+msgid "Author:"
+msgstr ""
+
+#: template-parts/biography.php:31
+#, php-format
+msgid "All Posts by %s"
+msgstr ""
+
+#: template-parts/content-home.php:20
+#: template-parts/content-page-full-width.php:19
+#: template-parts/content-page.php:20 template-parts/content-single.php:35
+#: template-parts/content.php:24
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:18
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:20
+msgid "Try again with some different keywords?"
+msgstr ""
+
+#: template-parts/content-none.php:23
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-single.php:30 template-parts/content.php:20
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Oceanica Lite"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://motopress.com/products/oceanica-lite/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Oceanica Lite is a clean-looking WordPress theme with a minimal design for "
+"your hotel business, travel blog or travel agency. The theme is fully "
+"responsive providing a great user experience for the owner of any device. "
+"The theme comes with a neat typography and imagery for uncluttered and "
+"attention-to-details blogging. Wide and grid layouts are available. If you "
+"are looking for a WordPress hotel business theme with a fully functional "
+"room reservation system (rates, seasons, services, real-time search "
+"availability form, online payments, etc.), check out Oceanica Hotel "
+"Booking theme on our website. It's fully integrated with our MotoPress "
+"Hotel Booking plugin letting you feature rooms listing in a beautiful way "
+"and enable instant paid bookings."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "MotoPress"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://motopress.com/"
+msgstr ""

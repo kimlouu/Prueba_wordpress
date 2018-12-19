@@ -1,0 +1,12 @@
+http://186.64.118.50/~fev1klopez/puertonatura/
+BBDD: puertonatura
+
+Wordpress login:
+user: klopez
+pass: sMcdX%fzL1ccTEgE6q
+
+
+BBDD HOSTING: fev1klop_puertonatura_deploy
+
+user: fev1klop_pnatura
+pass: puertonaturabbdd
